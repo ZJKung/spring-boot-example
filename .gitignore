@@ -1,0 +1,75 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Java-specific ignores
+*.class
+*.jar
+*.war
+*.ear
+
+# Spring Boot-specific ignores
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE ignores
+.idea/
+.vscode/
+
+# Logs and temporary files
+log/
+*.log
+*.log.*
+*.pid
+*.lock
+*.tmp
+*.swp
+*.bak
+*.orig
+*.old
+*.~*
+
+# Compiled binaries
+/bin/
+/build/
+/out/
+/lib/
+*.iml
+
+# Maven ignores
+/.mvn/
+*.iml
+
+##db data
+postgres-data/
